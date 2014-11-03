@@ -1,0 +1,31 @@
+{
+  "name": "debug-browserify-require",
+  "version": "1.0.0",
+  "description": "Trying to reproduce an issue using browserify's require option",
+  "main": "test.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NickHeiner/debug-browserify-require"
+  },
+  "keywords": [
+    "browserify",
+    "debug"
+  ],
+  "author": "Nick Heiner <nth23@cornell.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NickHeiner/debug-browserify-require/issues"
+  },
+  "homepage": "https://github.com/NickHeiner/debug-browserify-require",
+  "dependencies": {
+    "browserify": "^6.2.0",
+    "chalk": "^0.5.1",
+    "lodash": "^2.4.1",
+    "progress": "^1.1.8",
+    "q": "^1.0.1"
+  }
+}
